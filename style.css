@@ -179,3 +179,39 @@ main .hero-section .hero-img{
 .about-section .text-about .read-btn:hover{
     background-color: rgb(31, 92, 172);
 }
+
+
+main .Services{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+main .Services button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(162, 200, 250);
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    display: block;
+    margin: auto;
+}
+main .Services h2{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+main .Services .div1 div{
+    margin: 0.75rem;
+    padding: 1.25rem;
+    background-color:#EFF5FF;
+    border-radius: 8px;
+}
+main .Services .div1{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
