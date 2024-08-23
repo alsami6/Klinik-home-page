@@ -64,10 +64,12 @@ header nav ul button{
     cursor: pointer;    
     transition: 0.3s;
     border: none;
+    background-color: rgb(41, 130, 247);
+    color: white;
 }
 
 header nav ul button:hover{
-    background-color: rgb(41, 130, 247);
+    background-color: rgb(31, 92, 172);
     color: white;
 }
 
@@ -121,5 +123,59 @@ main .hero-section .hero-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    padding-top: 15rem;
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.about-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.about-section .text-about h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-section .text-about p{
+    margin-bottom: 1rem;
+    color: rgb(104, 104, 104);
+}
+
+.about-section .text-about ul{
+    margin-top: 2rem;
+    margin-left: 1.25rem;
+    color: rgb(104, 104, 104);
+    margin-bottom: 2rem;
+}
+
+.about-section .text-about .btn-about{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(162, 200, 250);
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.about-section .text-about .read-btn{
+    padding: 1rem 2rem;
+    border-radius: 05rem;
+    border: none;
+    background-color: rgb(41, 130, 247);
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.about-section .text-about .read-btn:hover{
+    background-color: rgb(31, 92, 172);
 }
